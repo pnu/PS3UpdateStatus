@@ -5,8 +5,9 @@
 <table>
 
 <tr><th>key</th><th>Dest</th><th>Compatible</th>
-<th>ImageVersion</th><th>SystemSoftwareVersion</th>
-<th><em>Last-Modified</em></th><th><em>CDN Last-Modified</em></th></tr>
+<th>ImageVersion</th><th>SoftwareVersion</th>
+<th><em>ps3-updatelist.txt Last-Modified</em></th>
+<th><em>PS3UPDAT.PUP Last-Modified</em></th></tr>
 
 % for my $key ( keys %{$self->data} ) {
 %   my $row = $self->data->{$key};
@@ -34,4 +35,7 @@
 % }
 
 </table>
+
+<br/><br/>
+<a href="http://github.com/pnu/PS3UpdateStatus">Fork me at Github</a>
 
