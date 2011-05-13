@@ -4,6 +4,6 @@ Simple application that polls PS3 software update version from various CDN addre
 Disclaimer: I don't have any verified information about the addresses used etc,
 so don't blame me if an update happens without noticing it here.
 
-I've deployed this application to address http://ps3updatestatus.dotcloud.com/, which
-is a beta service, but feel free to deploy your own.
+I've deployed this application to address http://www.ps3updatestatus.dotcloud.com/, which
+is a beta service, but feel free to deploy and/or fork your own copy.
 
